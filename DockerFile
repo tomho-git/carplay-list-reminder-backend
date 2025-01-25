@@ -1,0 +1,4 @@
+FROM openjdk:11-jre-slim
+VOLUME /tmp
+COPY target/my-java-api-1.0-SNAPSHOT.jar my-java-api.jar
+ENTRYPOINT ["java", "-jar", "/my-java-api.jar"]
