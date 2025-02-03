@@ -1,4 +1,5 @@
 com/yourpackage/MavenApplication.class
+com/yourpackage/TestConnection.class
 com/yourpackage/controller/DatabaseController.class
 com/yourpackage/repository/DatabaseRepository.class
 com/yourpackage/service/DatabaseService.class
