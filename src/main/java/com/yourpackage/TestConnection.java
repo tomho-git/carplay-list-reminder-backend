@@ -10,7 +10,7 @@ public class TestConnection {
     public static void main(String[] args) {
         String url = "jdbc:postgresql://localhost:5432/postgres";
         String user = "shingchunho";
-        String password = ""; // Replace with your actual password
+        String password = "123"; // Replace with your actual password
 
         try (Connection connection = DriverManager.getConnection(url, user, password)) {
             if (connection != null) {
