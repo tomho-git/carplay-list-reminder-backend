@@ -1,6 +1,6 @@
-package com.yourpackage.service;
+package com.carplayPackage.service;
 
-import com.yourpackage.repository.DatabaseRepository;
+import com.carplayPackage.repository.DatabaseRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

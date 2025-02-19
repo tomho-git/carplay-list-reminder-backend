@@ -1,6 +1,6 @@
-package com.yourpackage.repository;
+package com.carplayPackage.repository;
 
-import com.yourpackage.DatabaseConnection;
+import com.carplayPackage.DatabaseConnection;
 import org.springframework.stereotype.Repository;
 
 import java.sql.Connection;
