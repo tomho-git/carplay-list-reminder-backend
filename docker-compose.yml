@@ -1,3 +1,6 @@
+volumes:
+  postgres_data:
+
 services:
   app:
     build: .
@@ -11,10 +14,13 @@ services:
       - db
 
   db:
-    image: postgres
+    image: postgres:13
     environment:
       POSTGRES_DB: postgres
       POSTGRES_USER: shingchunho
       POSTGRES_PASSWORD: ccASijJwck9d
     ports:
       - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./docker-init.sql:/docker-entrypoint-initdb.d/init.sql
